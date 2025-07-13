@@ -13,7 +13,7 @@ cd package-b; pnpm i
 You should get this error:
 
 ```
- EPERM  EPERM: operation not permitted, chmod '/home/ardeshir/Workspace/pnpm-chmod-test/package-b/node_modules/package-a/bin/something'
+ EPERM  EPERM: operation not permitted, chmod '.../pnpm-chmod-issue-3699/package-b/node_modules/package-a/bin/something'
 ```
 
 For more info see https://github.com/pnpm/pnpm/issues/3699
