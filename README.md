@@ -7,7 +7,8 @@ sudo chown root:root package-a/bin/something
 Then go to package-b and `pnpm i`:
 
 ```
-cd package-b; pnpm i
+cd package-b
+pnpm i
 ```
 
 You should get this error:
